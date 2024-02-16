@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-
+st.set_page_config(page_title="CSV_Merger", page_icon="📧")
 def merge_csv_files(files):
     # Initialize an empty list to store DataFrames
     dfs = []
